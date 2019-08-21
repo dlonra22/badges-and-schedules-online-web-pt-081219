@@ -22,8 +22,9 @@ def assign_rooms(array)
     message
   end
 def printer(array)
+    badgesandrooms =""
     array.each do |elmnt|
-      puts batch_badge_creator([elmnt]).first
+      puts badgesandrooms = batch_badge_creator([elmnt]).first
       puts assign_rooms([elmnt]).first
     end
   end
