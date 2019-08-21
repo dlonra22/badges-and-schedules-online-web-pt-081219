@@ -29,7 +29,7 @@ def printer(array)
       cnt+=1
     end
     cnt=0
-    array.each do |elmnt|
+    array.each do 
       puts assign_rooms(array)[cnt]
     end
   end
