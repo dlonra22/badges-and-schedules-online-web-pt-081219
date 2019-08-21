@@ -22,14 +22,10 @@ def assign_rooms(array)
     message
   end
 def printer(array)
-    badgesandrooms =""
-    cnt = 0
-    array.each do |elmnt|
-      puts batch_badge_creator(array)[cnt]
-      cnt+=1
+    batch_badge_creator(array).each do |elmnt|
+      put elmnt
     end
-    cnt=0
-    array.each do 
-      puts assign_rooms(array)[cnt]
+    assign_rooms(array).each do |elmnt|
+      puts elmnt
     end
   end
