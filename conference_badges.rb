@@ -7,7 +7,7 @@ end
 def batch_badge_creator(array)
    message = []
    array.each do |elmnt|
-     message << "Hello, my name is #{elmnt}."
+     message << badge_maker(elmnt)
    end
    message
  end
@@ -21,4 +21,5 @@ def assign_rooms(array)
     end
     message
   end
-    
+def printer(array)
+  puts 
