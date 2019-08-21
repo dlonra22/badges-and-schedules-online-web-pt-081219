@@ -19,5 +19,6 @@ def assign_rooms(array)
       message << "Hello, #{elmnt}! You'll be assigned to room #{cnt}!"
       cnt+= 1 
     end
+    message
   end
     
