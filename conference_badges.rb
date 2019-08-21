@@ -30,6 +30,6 @@ def printer(array)
     end
     cnt=0
     array.each do |elmnt|
-      puts assign_rooms([elmnt]).first
+      puts assign_rooms(array)[cnt]
     end
   end
